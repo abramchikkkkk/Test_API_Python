@@ -1,7 +1,7 @@
 from utils.http_mothods import http_methods
 
 
-"""Методы для ттестирования Google_maps_api"""
+"""Методы для тестирования Google_maps_api"""
 
 
 base_url = "https://rahulshettyacademy.com" #Базовый URL

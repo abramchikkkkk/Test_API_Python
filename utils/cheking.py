@@ -12,7 +12,6 @@ class Cheking():
     """Метод для проверки статус кода"""
     @staticmethod
     def chek_status_code(respose: Response, status_code):
-        # assert status_code == respose.status_code
         if respose.status_code == status_code:
             print("Успешно! Статус код = " + str(respose.status_code))
         else:
