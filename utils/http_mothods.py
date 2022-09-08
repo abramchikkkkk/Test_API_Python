@@ -5,7 +5,7 @@ from utils.logger import Logger
 """Спсок HTTP медодов"""
 
 class http_methods:
-    headers = {'Content-Type' : 'application/json'}
+    headers = {'Content-Type': 'application/json'}
     cookie = ""
 
     @staticmethod
