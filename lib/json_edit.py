@@ -1,6 +1,7 @@
 import json
 from pathlib import PurePath
 
+"""Метод чтения и обновления JSON"""
 
 class Json_Path:
     update_place = PurePath("data", "update_new_place.json")
