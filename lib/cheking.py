@@ -1,15 +1,12 @@
 import json
-
 from requests import Response
-
-
-
 
 """Методы для проверки ответов наших запросов"""
 
-class Cheking():
 
+class Cheking:
     """Метод для проверки статус кода"""
+
     @staticmethod
     def chek_status_code(respose: Response, status_code):
         if respose.status_code == status_code:
@@ -33,7 +30,3 @@ class Cheking():
         chek_info = chek.get(filde_name)
         assert chek_info == expected_value
         print(filde_name + " верен!!!")
-
-
-
-

@@ -1,0 +1,5 @@
+docker-compose up --build
+docker run --rm --mount type=bind,src=C:\Users\abramchik__\Desktop\autotest\Test_API_Python,target=/tests_project/ pytest_runner
+docker pull python
+docker build -t pytest_runner .
+docker build -t pytest_runner -f C:\Users\abramchik__\Desktop\autotest\Test_API_Python\Dockerfile .

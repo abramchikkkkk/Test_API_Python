@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  test_runner:
+    build: ./
+    network_mode: "host"
+    image: pytest_runner
+    container_name: pytest_runners_works
+    environment:
+      - ENV=dev
+    volumes:
+      - .:/tests_project/
+    command: python -m pytest -s --alluredir=test_results/ /test_project/tests/
