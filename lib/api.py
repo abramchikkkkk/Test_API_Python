@@ -1,7 +1,7 @@
 from lib.json_edit import Json_edit, Json_Path
 from lib.http_mothods import Http_methods
 
-"""Методы для тестирования Google_maps_api"""
+"""Методы для тестирования Maps_api"""
 
 base_url = "https://rahulshettyacademy.com"  # Базовый URL
 key = "?key=qaclick123"  # Параметр для всех запросов
